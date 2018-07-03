@@ -1,0 +1,44 @@
+.backButton {
+  position: fixed;
+  top: 5px;
+}
+
+.file {
+  margin-top: 60px;
+  font-size: 1rem;
+}
+
+.dataTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.dataTable td, .dataTable th {
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+
+.dataTable tr:nth-child(even){background-color: rgba(0,0,0,0.3);}
+
+.dataTable tr:hover {
+  cursor: pointer;
+  background-color: rgba(200,200,200,0.3);
+}
+
+.dataTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(76, 175, 80, 0.4);
+    color: white;
+}
+
+.fileInput {
+  position: relative;
+  float: right;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
